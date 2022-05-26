@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"
+      data-auto-replace-svg="nest"
+    ></script>
+    <title>Smooth Brew</title>
+  </head>
+  <body>
+    <header>
+      <!---NAVIGATION BAR-->
+      <nav class="navbar navbar-expand-lg fixed-top nav-menu">
+        <a href="#"><i class="fas fa-mug-hot fa-6x"></i> </a>
+        <button
+          class="navbar-toggler nav-button"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbar"
+        >
+          <div class="bg-light bar1"></div>
+          <div class="bg-light bar2"></div>
+          <div class="bg-light bar3"></div>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end text-uppercase font-weight-bold"
+          id="navbar"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link m-2 menu">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link m-2 menu">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="contactus.html" class="nav-link m-2 menu">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link m-2 menu">Menu</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!--END OF NAVBAR-->
+      <div class="text-light text-right banner">
+        <h1 class="display-4 text-center font-weight-bold heading">
+          IT'S THE SIMPLE PLEARUES IN LIFE
+        </h1>
+        <p class="main text-center">COFFFEE * BAGLES * DONUTS</p>
+      </div>
+    </header>
+    <!--END OF HEADER-->
+    <!--ABOUT US -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 my-4">
+            <h1 class="text-uppercase title-text display-3">About us</h1>
+            <p class="text">
+              Famously known as Smoot Brew we endeavor to give the best
+              involvement to our visitors. Our espressos sourced from a large
+              number of little espresso grower, who made us our identity today
+              and we’re happy to be a piece of their lives.<!--<span id="dots">...</span> <span id="more"> -->We
+              opened our first cafe in 1996 at Brigade Road in Bangalore – the
+              adolescent and the youthful on a fundamental level quickly took to
+              the cafe, and it keeps on being a standout amongst the most
+              happening spots in the city.AAA to the young is a “home base” spot
+              where they meet individuals, make discussions, and have a ton of
+              fun over some extraordinary coffee. It’s been an energizing
+              adventure from that point forward to turning into the biggest
+              sorted out retail cafe chain in the nation. We’re likewise present
+              in Austria, Czech Republic and Malaysia, so if your movement takes
+              you there, do stop by our outlets to recover a taste from home!<!--</span>-->
+            </p>
+            <a href="#" class="btn hvr-right my-4 text-capitalize">
+              <!-- <button id="readMore">Read More</button>-->
+              Know more
+            </a>
+          </div>
+          <div class="col-md-6 about-images my-4 d-none d-lg-block">
+            <img
+              src="images/img1.jpg"
+              alt=""
+              class="img-1 img-thumbnail about-img"
+            />
+            <img
+              src="images/img2.jpg"
+              alt=""
+              class="img-2 img-thumbnail about-img"
+            />
+            <img
+              src="images/pexels-burst-373948.jpg"
+              alt=""
+              class="img-3 img-thumbnail about-img"
+            />
+            <img
+              src="images/img5.jpg"
+              alt=""
+              class="img-4 img-thumbnail about-img"
+            />
+            <img
+              src="images/img6.jpg"
+              alt=""
+              class="img-5 img-thumbnail about-img"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--END OF ABOUT US-->
+    <!-----TAB SECTION-->
+    <section class="my-50">
+      <div class="container">
+        <div class="content-4">
+          <ul class="nav" role="tablist">
+            <li class="nav-item nav-tabs">
+              <a
+                href="#pie"
+                class="active tab-item"
+                role="tab"
+                data-toggle="tab"
+              >
+                <i class="fas fa-apple-alt"></i>
+                <span>Apple Pie</span>
+              </a>
+            </li>
+            <li class="nav-item nav-tabs">
+              <a href="#bread" class="tab-item" role="tab" data-toggle="tab">
+                <i class="fas fa-bread-slice"></i>
+                <span>Organic Bread</span>
+              </a>
+            </li>
+            <li class="nav-item nav-tabs">
+              <a href="#candy" class="tab-item" role="tab" data-toggle="tab">
+                <i class="fas fa-candy-cane"></i>
+                <span>Sugar Free Candies</span>
+              </a>
+            </li>
+            <li class="nav-item nav-tabs">
+              <a href="#cookie" class="tab-item" role="tab" data-toggle="tab">
+                <i class="fas fa-cookie"></i>
+                <span>Chocolate Cookies</span>
+              </a>
+            </li>
+          </ul>
+          <!--TABS-->
+          <div class="tab-content">
+            <div class="active tab-pane" role="tab-panel" id="pie">
+              <div class="row justify-content-md-center">
+                <div class="col-md-3 offset-md-1">
+                  <h4>Home Made Apple Pie</h4>
+                </div>
+                <div class="col-md-7">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Sint cupiditate magnam providsse ex qu pariatur vero neque
+                    id!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" role="tabpanel" id="bread">
+              <div class="row justify-content-md-center">
+                <div class="col-md-3 offset-md-1">
+                  <h4>Home Made Organic Bread</h4>
+                </div>
+                <div class="col-md-4">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nihil nobis maiores quae, atque d Assumenda, autem?
+                  </p>
+                </div>
+                <div class="col-md-4">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Assumenda, repell
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" role="tabpanel" id="candy">
+              <div class="row justify-content-md-center">
+                <div class="col-md-4 offset-md-1">
+                  <h4>Sugar Free Candies</h4>
+                </div>
+                <div class="row pt-3">
+                  <div class="col-md-10 offset-md-1">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Porro velit
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" role="tabpanel" id="cookie">
+              <div class="row">
+                <div class="col-md-4 offset-md-1">
+                  <h4>Home Made Chocolate Cookies</h4>
+                </div>
+                <div class="row">
+                  <div class="col-md-3 offset-md-1">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Conseceniti nobis t accusamus a a!
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Non eum modi dolor ssaepe eaque quod, aspernatur ex?
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Nost
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---END OF TAB SECTION-->
+    <!-----------MOST LIKED-->
+    <section class="most-liked p-5">
+      <div class="video-container">
+        <video class="bg-video" autoplay muted loop>
+          <source src="images/video1.mp4" type="video/mp4" />
+          <source src="images/video/coffee-jet.webm" />
+        </video>
+      </div>
+      <div class="container-fluid">
+        <!--------TITLE-->
+        <div class="row">
+          <div class="col text-center py-5">
+            <h1 class="text-uppercase text-color font-weight-bold">
+              Most Demanded
+            </h1>
+          </div>
+        </div>
+        <!--END OF TITLE-->
+        <div class="row justify-content-around align-items-center">
+          <div class="col-xl-3 col-lg-4 col-sm rotate">
+            <div class="card text-center mb-3 coffee-card">
+              <div class="card-header">
+                <h4 class="font-weight-light title-text">Espresso</h4>
+              </div>
+              <div class="card-body">
+                <img src="images/img5.jpg" class="img-fluid rounded" />
+              </div>
+              <div class="card-footer">with Muffin</div>
+              <div class="back">
+                <div class="back-content">
+                  <h1 class="text-uppercase font-weight-light">Only for</h1>
+                  <h3 class="mb-3">$5</h3>
+                  <a href="#" class="btn hvr-right my-4 text-capitalize"
+                    >Order</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-sm rotate">
+            <div class="card text-center mb-3 coffee-card">
+              <div class="card-header">
+                <h4 class="font-weight-light title-text">Cafe Latte</h4>
+              </div>
+              <div class="card-body">
+                <img src="images/img1.jpg" class="img-fluid rounded" />
+              </div>
+              <div class="card-footer">with Croissant</div>
+              <div class="back">
+                <div class="back-content">
+                  <h1 class="text-uppercase font-weight-light">Only for</h1>
+                  <h3 class="mb-3">$5</h3>
+                  <a href="#" class="btn hvr-right my-4 text-capitalize"
+                    >Order</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-sm rotate">
+            <div class="card text-center mb-3 coffee-card">
+              <div class="card-header">
+                <h4 class="font-weight-light title-text">Cappuccino</h4>
+              </div>
+              <div class="card-body">
+                <img src="images/img-8.jpg" class="img-fluid rounded" />
+              </div>
+              <div class="card-footer">with Chocolate Cookies</div>
+              <div class="back">
+                <div class="back-content">
+                  <h1 class="text-uppercase font-weight-light">Only for</h1>
+                  <h3 class="mb-3">$5</h3>
+                  <a href="#" class="btn hvr-right my-4 text-capitalize"
+                    >Order</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-----END OF MOST LIKED-->
+    <!---CONATCT US-->
+    <section class="contact">
+      <div class="container">
+        <div class="text-center py-5">
+          <!-- <h2 class="py-3">Contact Us</h2> -->
+          <h2 class="contact">Contact Us</h2>
+          <div class="mx-auto heading-line"></div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <!---GOOGLE MAP-->
+            <div
+              id="map-container-google-1"
+              class="z-depth-1-half map-container"
+            >
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12557.615549024618!2d-121.27408075133418!3d38.10753715040434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7b651662ee32bc9b!2sFriday&#39;s%20Coffee!5e0!3m2!1sen!2sus!4v1610686649851!5m2!1sen!2sus"
+                width="100%"
+                height="420px"
+                frameborder="0"
+                style="border: 0"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+          <form class="col-lg-6">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                id="email"
+                class="form-control"
+                type="email"
+                aria-describedat="emailHint"
+                placeholder="Enter email"
+              />
+            </div>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input
+                id="name"
+                class="form-control"
+                type="text"
+                placeholder="Name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                class="form-control"
+                placeholder="Message"
+                rows="5"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn hvr-right my-4 btn-lg">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!---END OF CONTACT-->
+    <!--FOOTER-->
+
+    <footer>
+      <div class="text-center">
+        <h4 class="font-weight-bold">Follow Us</h4>
+        <div class="d-flex flex-row justify-content-center">
+          <span><i class="fab fa-facebook fa-2x"></i></span>
+          <span><i class="fab fa-twitter fa-2x"></i></span>
+          <span><i class="fab fa-instagram fa-2x"></i></span>
+          <span><i class="fab fa-pinterest fa-2x"></i></span>
+        </div>
+        <!-- <div class="col-md-4 footer-links">
+            <h3>links:</h3>
+            <a href="#home">home</a>
+            <a href="#special">About</a>
+            <a href="about.html">About</a>
+            <a href="#dish">Menu</a>
+            <a href="#contact">Contact</a>
+            </div>
+        -->
+
+        <p>&copy; copy right Coffee Time</p>
+        <div class="top">
+          <a href="#"><i class="fas fa-arrow-circle-up fa-2x"></i></a>
+        </div>
+      </div>
+    </footer>
+    <!--END OF FOOTER-->
+
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- This section is if i want to add the read more or less button<script type="text/javascript">
+     $(document).ready(function(){
+         $('#readMore').click(function(){
+             if($(this).html() == 'Read More'){
+                 $('#dots').hide();
+                 $('#more').show();
+                 $(this).html('Read Less');
+             }else{
+                 $('#dots').show();
+                 $('#more').hide();
+                 $(this).html('Read More');
+                
+                 
+
+             }
+         });
+     });
+ </script>-->
+  </body>
+</html>
